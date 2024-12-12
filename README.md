@@ -3,7 +3,7 @@
 ### **Week 1: Current Week (Brainstorming Ideas)**  
 - **Goal**: Finalize the topic and assign roles.  
 - **Tasks**:
-  [X] **Entire Team**: Brainstorm and discuss potential ideas. 
+  [ X ] **Entire Team**: Brainstorm and discuss potential ideas. 
   - **Report Coordinator (Team Member 2)**: Set up the LaTeX document structure in Overleaf.
   - **Research Lead (Team Member 1)**: Research theoretical topics and feasibility.
   - **Dataset Specialist (Team Member 3)**: Investigate possible datasets or scenarios.
