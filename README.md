@@ -8,7 +8,7 @@
 - **Coding Lead**:
 - **Visualization Specialist**:
 
-## **Week 1: Current Week (Brainstorming Ideas)**  
+## **Week 1: 11-17 December 2024 (Brainstorming Ideas)**  
 - [ ] **Entire Team**: Brainstorm and finalize the topic.  
 - [ ] **Research Lead**: Research theoretical topics and feasibility.
 - [ ] **Report Coordinator**: Set up the LaTeX document structure in Overleaf.
