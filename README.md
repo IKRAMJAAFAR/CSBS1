@@ -55,7 +55,7 @@
 - [ ] **Report Coordinator**: Incorporate presentation feedback into the report.
 - [ ] **Presentation Specialist**: Finalize and rehearse the Beamer presentation.
 - [ ] **Visualization Specialist**: Add visuals to presentation and review.  
-- [ ] **Presentation Date**: **Thursday, 9 January 2025**.  
+- **Presentation Date**: **Thursday, 9 January 2025**.  
 
 ---
 
