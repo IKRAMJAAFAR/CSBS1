@@ -83,4 +83,3 @@
 
 ---
 
-Would you like suggestions on tools or best practices for collaboration?
