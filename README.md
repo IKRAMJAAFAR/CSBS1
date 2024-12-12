@@ -1,4 +1,4 @@
-# Numerical Analysis CSBS1 Checklist
+# Numerical Analysis CSBS1 Timeline
 
 ## **Roles**
 - **Research Lead**:
