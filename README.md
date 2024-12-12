@@ -1,12 +1,12 @@
 # Numerical Analysis CSBS1 Checklist
 
 ## **Roles**
-- Research Lead:
-- Report Coordinator:
-- Presentation Specialist:
-- Dataset Specialist:
-- Coding Lead:
-- Visualization Specialist:
+- **Research Lead**:
+- **Report Coordinator**:
+- **Presentation Specialist**:
+- **Dataset Specialist**:
+- **Coding Lead**:
+- **Visualization Specialist**:
 
 ## **Week 1: Current Week (Brainstorming Ideas)**  
 - [ ] **Entire Team**: Brainstorm and finalize the topic.  
