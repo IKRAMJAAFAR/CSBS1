@@ -1,12 +1,12 @@
 # Numerical Analysis CSBS1 Timeline
 
 ## **Roles**
-- **Research Lead**:
-- **Report Coordinator**:
-- **Presentation Specialist**:
-- **Dataset Specialist**:
-- **Coding Lead**:
-- **Visualization Specialist**:
+- **Research Lead**: Masyitah
+- **Report Coordinator**: Humrya
+- **Presentation Specialist**: Jia Ying
+- **Dataset Specialist**: Beldon
+- **Coding Lead**: Ikram
+- **Visualization Specialist**: Bakhtiar
 
 ## **Week 1: 11-17 December 2024 (Brainstorming Ideas)**  
 - [ ] **Entire Team**: Brainstorm and finalize the topic.  
