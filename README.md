@@ -3,8 +3,8 @@
 ## **Roles**
 - **Research Lead**: Masyitah
 - **Report Coordinator**: Humrya
-- **Presentation Specialist**: Y
-- **Dataset Specialist**: 
+- **Presentation Specialist**: Jia Ying
+- **Dataset Specialist**: Beldon
 - **Coding Lead**: Ikram
 - **Visualization Specialist**: Bakhtiar
 
