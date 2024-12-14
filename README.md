@@ -1,12 +1,12 @@
 # Numerical Analysis CSBS1 Timeline
 
 ## **Roles**
-- **Research Lead**:
-- **Report Coordinator**:
-- **Presentation Specialist**:
-- **Dataset Specialist**:
-- **Coding Lead**:
-- **Visualization Specialist**:
+- **Research Lead**: Masyitah
+- **Report Coordinator**: Humrya
+- **Presentation Specialist**: Y
+- **Dataset Specialist**: 
+- **Coding Lead**: Ikram
+- **Visualization Specialist**: Bakhtiar
 
 ## **Week 1: 11-17 December 2024 (Brainstorming Ideas)**  
 - [ ] **Entire Team**: Brainstorm and finalize the topic.  
@@ -43,10 +43,10 @@
 ## **Week 4: 30 December 2024 - 5 January 2025 (Coding and Report Drafting)**  
 - [ ] **Research Lead**: Revise theoretical sections and contribute to Discussion.
 - [ ] **Report Coordinator**: Format and refine LaTeX draft.  
+- [ ] **Presentation Specialist**: Update Beamer presentation with findings.  
 - [ ] **Dataset Specialist**: Collaborate with coding team to validate results.  
 - [ ] **Coding Lead**: Finalize code and handle edge cases.  
 - [ ] **Visualization Specialist**: Refine visualizations for inclusion in report and Beamer.  
-- [ ] **Presentation Specialist**: Update Beamer presentation with findings.  
 
 ---
 
@@ -72,7 +72,7 @@
 ## **Week 7: 17 January 2025 (Submission Week)**  
 - [ ] **Entire Team**: Double-check all submissions for completeness. 
 - [ ] **Research Lead**: Verify theoretical accuracy.  
-- [ ] **Report Coordinator**: Submit final LaTeX report (PDF).
+- [ ] **Report Coordinator**: Submit final LaTeX report.
 - [ ] **Presentation Specialist**: Submit final Beamer presentation.    
 - [ ] **Coding Lead**: Submit MATLAB/Python scripts with documentation.  
 - **Deadline**: **Friday, 17 January 2025**.  
