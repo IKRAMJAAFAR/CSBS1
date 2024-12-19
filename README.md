@@ -9,12 +9,12 @@
 - **Visualization Specialist**: Bakhtiar
 
 ## **Week 1: 11-17 December 2024 (Brainstorming Ideas)**  
-- [ ] **Entire Team**: Brainstorm and finalize the topic.  
-- [ ] **Research Lead**: Research theoretical topics and feasibility.
-- [ ] **Report Coordinator**: Set up the LaTeX document structure in Overleaf.
-- [ ] **Presentation Specialist**: Review Beamer templates and set up the initial structure.
+- [X] **Entire Team**: Brainstorm and finalize the topic.  
+- [X] **Research Lead**: Research theoretical topics and feasibility.
+- [X] **Report Coordinator**: Set up the LaTeX document structure in Overleaf.
+- [X] **Presentation Specialist**: Review Beamer templates and set up the initial structure.
 - [ ] **Dataset Specialist**: Investigate possible datasets or scenarios.  
-- [ ] **Coding Lead**: Set up the MATLAB/Python coding environment.  
+- [X] **Coding Lead**: Set up the MATLAB/Python coding environment.  
 - [ ] **Visualization Specialist**: Explore plotting tools (e.g., Matplotlib, MATLAB plotting).  
 
 ---
