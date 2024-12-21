@@ -1,57 +1,156 @@
-\documentclass{beamer}
-\usepackage[authoryear]{natbib}
-\bibliographystyle{apa}
+\documentclass[10pt]{beamer}
+\hypersetup{pdfpagemode=FullScreen}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\usefonttheme{serif}
+\usepackage{microtype}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{breqn}
+\usepackage{empheq}
+\usepackage{tensor}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{transparent}
+\usepackage{fontenc}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{hyperref}
 
+% set colors
+\definecolor{myNewColorA}{RGB}{39,52,139}
+\definecolor{myNewColorB}{RGB}{226,182,0}
+\definecolor{myNewColorC}{RGB}{226,182,0}
+\setbeamercolor*{palette primary}{bg=myNewColorA, fg=white}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg=black}
+\setbeamercolor*{palette tertiary}{bg=myNewColorB, fg=black}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg=white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
 
+% define environment
+\newenvironment{tres important}[2][]{
+	\setkeys{EmphEqEnv}{#2}
+	\setkeys{EmphEqOpt}{box={\setlength{\fboxsep}{10pt}\fcolorbox{myNewColorA}{white}},#1}
+	\EmphEqMainEnv}
+{\endEmphEqMainEnv}
+
+%------------------------------------------------------------
+\titlegraphic{
+    \vspace{-7.8cm} % Move the logo closer to the top of the slide
+    \includegraphics[height=3cm]{img-logo-UM} % Adjust size if needed
+    \vspace{0.5cm} % Space between logo and title
+}
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{institute}{size=\large}
+\title[Estimating Monthly Expenses]{Estimating Monthly Expenses}
+\subtitle{Group CSBS1}
+\institute[WID3015 Numerical Analysis]{Supervisor: Dr Suzan J. Obaiys}
+\date[Universiti Malaya]
+
+% This block of commands puts the table of contents at the beginning of each section and highlights the current section:
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\AtBeginSection[]
+{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+%------------------------------------------------------------
 \begin{document}
 
-\begin{frame}{Agreed Title}
-\begin{center}
-{\LARGE \textbf{Group CSBS1}} \\[1cm]
-{\LARGE \textbf{[Agreed Title]}}
-\end{center}
+% The title page
+\begin{frame}
+    \titlepage
 \end{frame}
 
+% Table of contents
+\begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents
+\end{frame}
+
+% Group Member List Frame
+\section{Group Member List}
 \begin{frame}{Group Member List}
-group members are as below
-\begin{table}
-\begin{center}
-\small
-    \begin{tabular}{|l|c|}
-        \hline
-        \textbf{Name} & \textbf{Matrix Number} \\ \hline
-        MUHAMMAD IKRAM BIN JAAFAR  & U2100632  \\ \hline
-        BELDON LIM KAI YI  & 22059390  \\ \hline
-        CHONG JIA YING  & U2102853  \\ \hline
-        HUMYRA TASMIA  & S2176677  \\ \hline
-        MASYITAH HUMAIRA BINTI MOHD HAFIDZ  & U2000518  \\ \hline
-        MUHAMMAD BAKHTIAR BIN MOHAMAD  & U2100679 \\
-        HARUN KAMAL  &  \\ \hline
-    \end{tabular}
-\end{center}
-\end{table}
+    \begin{table}
+    \begin{center}
+    \small
+        \begin{tabular}{|l|c|}
+            \hline
+            \textbf{Name} & \textbf{Matrix Number} \\ \hline
+            BELDON LIM KAI YI  & 22059390  \\ \hline
+            CHONG JIA YING  & U2102853  \\ \hline
+            HUMYRA TASMIA  & S2176677  \\ \hline
+            MASYITAH HUMAIRA BINTI MOHD HAFIDZ  & U2000518  \\ \hline
+            MUHAMMAD BAKHTIAR BIN MOHAMAD  & U2100679 \\
+            HARUN KAMAL  &  \\ \hline
+            MUHAMMAD IKRAM BIN JAAFAR  & U2100632  \\ \hline
+        \end{tabular}
+    \end{center}
+    \end{table}
 \end{frame}
 
-\begin{frame}{Table of Contents}
-\tableofcontents
-\end{frame}
-
-\section{Clear Title and list of students}
+% Introduction Section
 \section{Introduction}
-\section{Problem statement, and objectives}
-\section{Methodology}
-\section{Results and discussion}
-\section{Conclusion and future work}
-\section{Bibliography}
-\section{Appendix}
-
-\begin{frame}{References}
-example APA reference: \\ 
-\footnotesize
-\cite{SAKA201325}
-\bibliography{references}
-
+\begin{frame}{Introduction}
+    Introduction content.
 \end{frame}
 
+% Problem Statement and Objectives Section
+\section{Problem Statement and Objectives}
+\begin{frame}{Problem Statement and Objectives}
+    Problem Statement and Objectives content.
+\end{frame}
+
+% Methodology Section
+\section{Methodology}
+\begin{frame}{Methodology}
+    Methodology content.
+\end{frame}
+
+% Results and Discussion Section
+\section{Results and Discussion}
+\begin{frame}{Results and Discussion}
+    Results and Discussion content. \\
+    Reference1: \cite{brandimarte2013numerical} \\
+    Reference2: \cite{carmona2012numerical}
+\end{frame}
+
+% Conclusion and Future Work Section
+\section{Conclusion and Future Work}
+\begin{frame}{Conclusion and Future Work}
+    Conclusion and Future Work content.
+\end{frame}
+
+% Bibliography Section
+\section{Bibliography}
+\begin{frame}{Bibliography}
+    \bibliographystyle{apalike}
+    \bibliography{references}
+\end{frame}
+
+% Appendix Section
+\section{Appendix}
+\begin{frame}{Appendix}
+    Appendix content.
+\end{frame}
 
 \end{document}
