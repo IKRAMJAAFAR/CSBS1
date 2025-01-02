@@ -21,7 +21,6 @@
 % set colors
 \definecolor{myNewColorA}{RGB}{39,52,139}
 \definecolor{myNewColorB}{RGB}{226,182,0}
-\definecolor{myNewColorC}{RGB}{226,182,0}
 \setbeamercolor*{palette primary}{bg=myNewColorA, fg=white}
 \setbeamercolor*{palette secondary}{bg=myNewColorB, fg=black}
 \setbeamercolor*{palette tertiary}{bg=myNewColorB, fg=black}
@@ -30,30 +29,23 @@
 \setbeamercolor*{item}{fg=myNewColorA}
 \setbeamercolor*{caption name}{fg=myNewColorA}
 
-% define environment
-\newenvironment{tres important}[2][]{
-	\setkeys{EmphEqEnv}{#2}
-	\setkeys{EmphEqOpt}{box={\setlength{\fboxsep}{10pt}\fcolorbox{myNewColorA}{white}},#1}
-	\EmphEqMainEnv}
-{\endEmphEqMainEnv}
-
 %------------------------------------------------------------
 \titlegraphic{
-    \vspace{-7.8cm} % Move the logo closer to the top of the slide
-    \includegraphics[height=3cm]{img-logo-UM} % Adjust size if needed
-    \vspace{0.5cm} % Space between logo and title
+    \vspace{-7.8cm}
+    \includegraphics[height=2cm]{img-logo-UM} % Add your logo here
+    \vspace{0.5cm}
 }
 
 \setbeamerfont{title}{size=\large}
 \setbeamerfont{subtitle}{size=\small}
 \setbeamerfont{date}{size=\small}
 \setbeamerfont{institute}{size=\large}
-\title[Estimating Monthly Expenses]{Estimating Monthly Expenses}
+\title[Forecasting Case Study]{Forecasting with Hybrid Numerical Integration and Deep Learning}
 \subtitle{Group CSBS1}
-\institute[WID3015 Numerical Analysis]{Supervisor: Dr Suzan J. Obaiys}
+\institute[WID3015 Numerical Analysis]{Supervisor: Dr. Suzan J. Obaiys}
 \date[Universiti Malaya]
 
-% This block of commands puts the table of contents at the beginning of each section and highlights the current section:
+% This block puts the table of contents at the beginning of each section:
 \AtBeginSection[]
 {
   \begin{frame}
@@ -61,27 +53,16 @@
     \tableofcontents[currentsection]
   \end{frame}
 }
-\AtBeginSection[]
-{
-  \begin{frame}
-  \vfill
-  \centering
-  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
-    \usebeamerfont{title}\insertsectionhead\par%
-  \end{beamercolorbox}
-  \vfill
-  \end{frame}
-}
 
 %------------------------------------------------------------
 \begin{document}
 
-% The title page
+% Title Page
 \begin{frame}
     \titlepage
 \end{frame}
 
-% Table of contents
+% Table of Contents
 \begin{frame}
     \frametitle{Table of Contents}
     \tableofcontents
@@ -111,33 +92,66 @@
 % Introduction Section
 \section{Introduction}
 \begin{frame}{Introduction}
-    Introduction content.
+    \begin{itemize}
+        \item Fields applying forecasting: Healthcare, Weather, Traffic.
+        \item Challenges in forecasting.
+        \item Limitations of traditional models (ARIMA, SARIMA, Statistical Methods).
+        \item Contribution of numerical integration to forecasting.
+    \end{itemize}
 \end{frame}
 
-% Problem Statement and Objectives Section
+% Problem Statement and Objectives
 \section{Problem Statement and Objectives}
-\begin{frame}{Problem Statement and Objectives}
-    Problem Statement and Objectives content.
+\begin{frame}{Problem Statement}
+    The study addresses the accuracy and efficiency of forecasting time-series data using hybrid numerical integration and deep learning models.
+\end{frame}
+
+\begin{frame}{Objectives}
+    \begin{itemize}
+        \item Develop and evaluate LSTM models with numerical integration.
+        \item Use metrics like MSE, MSLE, R\textsuperscript{2}, IA, MAPE, and sMAPE.
+        \item Leverage time-series datasets for enhanced forecasting.
+    \end{itemize}
 \end{frame}
 
 % Methodology Section
 \section{Methodology}
-\begin{frame}{Methodology}
-    Methodology content.
+\begin{frame}{Methodology Overview}
+    \begin{itemize}
+        \item Dataset collection (e.g., NYC taxi passengers).
+        \item Numerical integration methods: Trapezoidal Rule, Monte Carlo.
+        \item Preprocessing: Trend extraction, seasonality analysis, Normalize/standardize data, dataset splitting.
+        \item Deep learning model: LSTM.
+        \item Hybrid model design.
+        \item Performance metrics.
+    \end{itemize}
 \end{frame}
 
 % Results and Discussion Section
 \section{Results and Discussion}
 \begin{frame}{Results and Discussion}
-    Results and Discussion content. \\
-    Reference1: \cite{brandimarte2013numerical} \\
-    Reference2: \cite{carmona2012numerical}
+    \begin{itemize}
+        \item Comparative analysis: Numerical Integration, Deep Learning, Hybrid models.
+        \item Visualization: Bar charts, line plots, confidence intervals.
+        \item Discussion of hybrid model performance.
+    \end{itemize}
 \end{frame}
 
 % Conclusion and Future Work Section
 \section{Conclusion and Future Work}
-\begin{frame}{Conclusion and Future Work}
-    Conclusion and Future Work content.
+\begin{frame}{Conclusion}
+    \begin{itemize}
+        \item Hybrid models improve forecasting accuracy.
+        \item Trade-offs: Computational cost vs. accuracy.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Future Work}
+    \begin{itemize}
+        \item Explore real-time forecasting applications.
+        \item Apply to larger datasets.
+        \item Investigate anomaly detection.
+    \end{itemize}
 \end{frame}
 
 % Bibliography Section
@@ -147,10 +161,5 @@
     \bibliography{references}
 \end{frame}
 
-% Appendix Section
-\section{Appendix}
-\begin{frame}{Appendix}
-    Appendix content.
-\end{frame}
-
 \end{document}
+
