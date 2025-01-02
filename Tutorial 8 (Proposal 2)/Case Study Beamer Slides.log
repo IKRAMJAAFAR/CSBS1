@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.17)  2 JAN 2025 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.17)  2 JAN 2025 09:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal)/Tutorial 8 Group B.tex"
-(c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal)/Tutorial 8 Group B.tex
+**"c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal 2)/Case Study Beamer Slides.tex"
+(c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal 2)/Case Study Beamer Slides.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -769,27 +769,27 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count367
-) (Tutorial 8 Group B.aux)
-\openout1 = `"Tutorial 8 Group B.aux"'.
+) (Case Study Beamer Slides.aux)
+\openout1 = `"Case Study Beamer Slides.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -844,10 +844,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 58.
- (Tutorial 8 Group B.out) (Tutorial 8 Group B.out)
+Package hyperref Info: Link coloring OFF on input line 83.
+ (Case Study Beamer Slides.out) (Case Study Beamer Slides.out)
 \@outlinefile=\write5
-\openout5 = `"Tutorial 8 Group B.out"'.
+\openout5 = `"Case Study Beamer Slides.out"'.
 
  (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -862,154 +862,434 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 58.
-Package microtype Info: Applying patch `item' on input line 58.
-Package microtype Info: Applying patch `toc' on input line 58.
-Package microtype Info: Applying patch `eqnum' on input line 58.
-Package microtype Info: Applying patch `footnote' on input line 58.
-Package microtype Info: Applying patch `verbatim' on input line 58.
-LaTeX Info: Redefining \microtypesetup on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 83.
+Package microtype Info: Applying patch `item' on input line 83.
+Package microtype Info: Applying patch `toc' on input line 83.
+Package microtype Info: Applying patch `eqnum' on input line 83.
+Package microtype Info: Applying patch `footnote' on input line 83.
+Package microtype Info: Applying patch `verbatim' on input line 83.
+LaTeX Info: Redefining \microtypesetup on input line 83.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 58.
+LaTeX Info: Redefining \showhyphens on input line 83.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) (Tutorial 8 Group B.nav)
-<img-logo-UM.png, id=62, 287.3937pt x 90.3375pt>
+) (Case Study Beamer Slides.nav)
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 83--83
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 88--88
+ [][][][]  
+ []
+
+<img-logo-UM.png, id=66, 287.3937pt x 90.3375pt>
 File: img-logo-UM.png Graphic file (type png)
 <use img-logo-UM.png>
-Package pdftex.def Info: img-logo-UM.png  used on input line 63.
-(pdftex.def)             Requested size: 181.03705pt x 56.9055pt.
- [1
+Package pdftex.def Info: img-logo-UM.png  used on input line 88.
+(pdftex.def)             Requested size: 271.55339pt x 85.35826pt.
 
-{C:/Users/weare/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img-logo-UM.png>] (Tutorial 8 Group B.toc) [2
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-] (Tutorial 8 Group B.toc) [3
+[1
+
+{C:/Users/weare/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img-logo-UM.png>]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 94--94
+ [][][][]  
+ []
+
+(Case Study Beamer Slides.toc)
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
- (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 97--97
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 115--115
+ [][][][]  
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 115.
+(C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 115.
  (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\weare\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [4
+)
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-] (Tutorial 8 Group B.toc) [5
-
-] [6
-
-] (Tutorial 8 Group B.toc) [7
-
-] [8
-
-] [9
-
-] (Tutorial 8 Group B.toc) [10
-
-] [11
+[4
 
 ]
-<Taxi-Passengers-Graph.png, id=449, 627.3036pt x 418.4433pt>
-File: Taxi-Passengers-Graph.png Graphic file (type png)
-<use Taxi-Passengers-Graph.png>
-Package pdftex.def Info: Taxi-Passengers-Graph.png  used on input line 158.
-(pdftex.def)             Requested size: 341.23715pt x 227.62204pt.
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 118--118
+ [][][][]  
+ []
 
-Overfull \vbox (5.97777pt too high) detected at line 158
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 136--136
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 139--139
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 152--152
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 155--155
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 161--161
+ [][][][]  
+ []
+
+
+c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal 2)/Case Study Beamer Slides.tex:161: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 161
+[][]
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 164--164
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 195--195
+ [][][][]  
+ []
+
+
+c:/Users/weare/Documents/GitHub/CSBS1/Tutorial 8 (Proposal 2)/Case Study Beamer Slides.tex:195: LaTeX Error: Too deeply nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 \end{frame}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [12
 
- <./Taxi-Passengers-Graph.png>] (Tutorial 8 Group B.toc) [13
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 223--223
+ [][][][]  
+ []
 
-] [14
 
-] (Tutorial 8 Group B.toc) [15
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-] [16
-
-] [17
-
-] (Tutorial 8 Group B.toc) [18
+[13
 
 ]
-No file "Tutorial 8 Group B".bbl.
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 257--257
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 260--260
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 286--286
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 298--298
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 301--301
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 310--310
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [19
 
-] (Tutorial 8 Group B.toc) [20
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 313--313
+ [][][][]  
+ []
 
-] [21
 
-] (Tutorial 8 Group B.toc) [22
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
 
 ]
-
-Package natbib Warning: Citation `ieee_forecasting' on page 23 undefined on input line 210.
-
-
-Package natbib Warning: Citation `sciencedirect_weather' on page 23 undefined on input line 210.
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 319--319
+ [][][][]  
+ []
 
 
-Package natbib Warning: Citation `numerical_analysis' on page 23 undefined on input line 210.
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 322--322
+ [][][][]  
+ []
 
 
-Package natbib Warning: Citation `arxiv_time_series' on page 23 undefined on input line 210.
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
+[22
 
-Package natbib Warning: Citation `trapezoidal_area_analysis' on page 23 undefined on input line 210.
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 326--326
+ [][][][]  
+ []
 
+No file "Case Study Beamer Slides".bbl.
 
-Package natbib Warning: Citation `harvard_unit27' on page 23 undefined on input line 210.
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [23
 
 ]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 340--340
+ [][][][]  
+ []
+
+
+Package natbib Warning: Citation `10583885' on page 24 undefined on input line 340.
+
+
+Package natbib Warning: Citation `WAQAS2024' on page 24 undefined on input line 340.
+
+
+Package natbib Warning: Citation `unknown' on page 24 undefined on input line 340.
+
+
+Package natbib Warning: Citation `article' on page 24 undefined on input line 340.
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 343--343
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+]
+Overfull \hbox (147.49594pt too wide) in paragraph at lines 346--346
+ [][][][]  
+ []
+
+
+Overfull \hbox (147.49594pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+]
 \tf@nav=\write6
-\openout6 = `"Tutorial 8 Group B.nav"'.
+\openout6 = `"Case Study Beamer Slides.nav"'.
 
 \tf@toc=\write7
-\openout7 = `"Tutorial 8 Group B.toc"'.
+\openout7 = `"Case Study Beamer Slides.toc"'.
 
 \tf@snm=\write8
-\openout8 = `"Tutorial 8 Group B.snm"'.
+\openout8 = `"Case Study Beamer Slides.snm"'.
 
 
 
 Package natbib Warning: There were undefined citations.
 
-(Tutorial 8 Group B.aux)
+(Case Study Beamer Slides.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `"Tutorial 8 Group B".out' has not changed.
-(rerunfilecheck)             Checksum: B7A647F49758D4F3548D633520739C79;1167.
+Package rerunfilecheck Info: File `"Case Study Beamer Slides".out' has not changed.
+(rerunfilecheck)             Checksum: CEE3D9E28C250EC28C201FDF93C3DE1E;1184.
  ) 
 Here is how much of TeX's memory you used:
- 26334 strings out of 474486
- 504776 string characters out of 5743754
- 1943542 words of memory out of 5000000
- 47970 multiletter control sequences out of 15000+600000
- 565708 words of font info for 82 fonts, out of 8000000 for 9000
+ 26391 strings out of 474486
+ 505659 string characters out of 5743754
+ 1945542 words of memory out of 5000000
+ 48026 multiletter control sequences out of 15000+600000
+ 567451 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,1077b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "Tutorial 8 Group B.pdf" (23 pages, 507685 bytes).
+ 128i,16n,123p,1085b,725s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/weare/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on "Case Study Beamer Slides.pdf" (26 pages, 412613 bytes).
 PDF statistics:
- 883 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 20665 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1018 PDF objects out of 1200 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 23022 words of extra memory for PDF output out of 24883 (max. 10000000)
 

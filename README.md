@@ -20,11 +20,11 @@
 ---
 
 ## **Week 2: 18-22 December 2024 (Planning and Preliminary Research)**  
-- [ ] **Entire Team**: Finalize problem definition and work plan.  
-- [ ] **Research Lead**: Draft theoretical framework in LaTeX (Introduction, Objectives).
-- [ ] **Report Coordinator**: Merge contributions into LaTeX draft.
-- [ ] **Presentation Specialist**: Draft Beamer outline with placeholders.  
-- [ ] **Dataset Specialist**: Collect/create datasets or test cases.  
+- [X] **Entire Team**: Finalize problem definition and work plan.  
+- [?] **Research Lead**: Draft theoretical framework in LaTeX (Introduction, Objectives).
+- [?] **Report Coordinator**: Merge contributions into LaTeX draft.
+- [X] **Presentation Specialist**: Draft Beamer outline with placeholders.  
+- [X] **Dataset Specialist**: Collect/create datasets or test cases.  
 - [ ] **Coding Lead**: Begin coding numerical methods and test small cases.  
 - [ ] **Visualization Specialist**: Prototype visualizations (plots/graphs).  
 

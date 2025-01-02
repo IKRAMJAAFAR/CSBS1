@@ -1,0 +1,354 @@
+\documentclass[pt]{beamer}
+\hypersetup{pdfpagemode=FullScreen}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\usefonttheme{serif}
+\usepackage{microtype}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{breqn}
+\usepackage{empheq}
+\usepackage{tensor}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{transparent}
+\usepackage{fontenc}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+% set colors
+\definecolor{myNewColorA}{RGB}{39,52,139}
+\definecolor{myNewColorB}{RGB}{226,182,0}
+\definecolor{myNewColorC}{RGB}{226,182,0}
+\setbeamercolor*{palette primary}{bg=myNewColorA, fg=white}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg=black}
+\setbeamercolor*{palette tertiary}{bg=myNewColorB, fg=black}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg=white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+
+% Ensures consistent numbering style
+\setbeamertemplate{enumerate items}[circle]
+
+% Adjust indentation for enumerate
+\setlength{\leftmargini}{1.5em} 
+
+% define environment
+\newenvironment{tres important}[2][]{
+	\setkeys{EmphEqEnv}{#2}
+	\setkeys{EmphEqOpt}{box={\setlength{\fboxsep}{10pt}\fcolorbox{myNewColorA}{white}},#1}
+	\EmphEqMainEnv}
+{\endEmphEqMainEnv}
+
+%------------------------------------------------------------
+\titlegraphic{
+    \vspace{-7.8cm} % Move the logo closer to the top of the slide
+    \includegraphics[height=2cm]{img-logo-UM} % Adjust size if needed
+    \vspace{0.5cm} % Space between logo and title
+}
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{institute}{size=\large}
+\title[Utilizing Numerical Integration in Deep Learning for Forecasting in Time-Series Datasets]{Utilizing Numerical Integration in Deep Learning for Forecasting in Time-Series Datasets}
+\subtitle{Group CSBS1}
+\institute[WID3015 Numerical Analysis]{Supervisor: Dr Suzan J. Obaiys}
+\date[Universiti Malaya]
+
+% This block of commands puts the table of contents at the beginning of each section and highlights the current section:
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\AtBeginSection[]
+{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+%------------------------------------------------------------
+\begin{document}
+
+% The title page
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Table of contents
+\begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents
+\end{frame}
+
+% Group Member List Frame
+\section{Group Member List}
+\begin{frame}{Group Member List}
+    \begin{table}
+    \begin{center}
+    \small
+        \begin{tabular}{|l|c|}
+            \hline
+            \textbf{Name} & \textbf{Matrix Number} \\ \hline
+            BELDON LIM KAI YI  & 22059390  \\ \hline
+            CHONG JIA YING  & U2102853  \\ \hline
+            HUMYRA TASMIA  & S2176677  \\ \hline
+            MASYITAH HUMAIRA BINTI MOHD HAFIDZ  & U2000518  \\ \hline
+            MUHAMMAD BAKHTIAR BIN MOHAMAD  & U2100679 \\
+            HARUN KAMAL  &  \\ \hline
+            MUHAMMAD IKRAM BIN JAAFAR  & U2100632  \\ \hline
+        \end{tabular}
+    \end{center}
+    \end{table}
+\end{frame}
+
+% Introduction Section
+\section{Introduction}
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item The usual fields applying the tasks:
+    \begin{itemize}
+        \item Marketing
+        \item Weather
+        \item Traffic
+    \end{itemize}
+    \item The challenges in forecasting
+    \item Similar models and their limitations:
+    \begin{itemize}
+        \item ARIMA and SARIMA - Sensitive to anomalies
+        \item Statistical Methods (z-scores, rolling statistics) - Limited to linear patterns
+    \end{itemize}
+    \item A brief overview of how numerical integration contributes to forecasting.
+\end{itemize}
+\end{frame}
+
+
+% Problem Statement and Hypothesis Section
+\section{Problem Statement and Hypothesis}
+\begin{frame}{Problem Statement and Hypothesis}
+\begin{itemize}
+    \item Problem Statement \begin{itemize}
+        \item The problem addressed in this study is the accuracy and efficiency of forecasting time series data using hybrid numerical integration and deep learning models.
+\end{itemize}
+\end{frame}
+
+% Objectives Section
+\section{Objective}
+\begin{frame}{Objective}
+    \item Objective \begin{itemize}
+    \vspace{1em}
+        \item To leverage a predefined time-series dataset to address gaps in forecasting by specified techniques.
+        \item To develop and evaluate the deep learning model based on LSTM and numerical integration.
+        \item To compare the models using the MAE, MSE, MSLE, $R^2$, IA, MAPE and SMAPE metrics.
+    \end{itemize}
+\end{frame}
+
+% Methodology Section
+\section{Methodology}
+
+% First Page of Methodology
+\begin{frame}{Methodology}
+\begin{itemize}
+    \item[1.] \textbf{Dataset collection}
+    \begin{itemize}
+        \item NYC taxi passengers
+        \item Why we choose this and why is it suitable:
+        \begin{itemize}
+            \item Type
+            \item Properties
+            \item Relation to other course assignment
+            \item Anomaly
+        \end{itemize}
+    \end{itemize}
+
+    \item[2.] \textbf{Understanding the numerical Integration methods}
+    \begin{itemize}
+        \item Define selected methods:
+        \begin{itemize}
+            \item Trapezoidal Rule
+            \item Monte Carlo
+        \end{itemize}
+        \item Explain how numerical integration results will be used to forecast or preprocess data for deep learning models:
+        \begin{itemize}
+            \item Integration outputs:
+            \begin{itemize}
+                \item Cumulative sums
+                \item Rate of change
+            \end{itemize}
+            \item Numerical integration is applied to calculate cumulative trends over time, which serve as additional features for the LSTM model.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% Second Page of Methodology
+\begin{frame}{Methodology (cont'd)}
+\begin{itemize}
+    \item[3.] \textbf{Data preprocessing \& preparation}
+    \begin{itemize}
+        \item Time-series preprocessing:
+        \begin{itemize}
+            \item Trend extraction
+            \item Seasonality Analysis
+        \end{itemize}
+        \item Describe the steps in more detail:
+        \begin{itemize}
+            \item Handling missing values.
+            \item Normalizing/standardizing data.
+            \item Splitting into training and testing datasets.
+        \end{itemize}
+    \end{itemize}
+
+    \item[4.] \textbf{Understanding deep learning models structures}
+    \begin{itemize}
+        \item LSTM:
+        \begin{itemize}
+            \item Explain its capability.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% Third Page of Methodology
+\begin{frame}{Methodology (cont'd)}
+\begin{itemize}
+    \item[5.] \textbf{Process of Hybrid Models}
+    \begin{itemize}
+        \item Specify how you’ll combine numerical integration with deep learning:
+        \begin{itemize}
+            \item Use integration results as features for the deep learning models.
+            \item Apply numerical integration to validate predictions or enhance training.
+        \end{itemize}
+        \item Clarify the process of combining outputs from numerical integration with deep learning:
+        \begin{itemize}
+            \item Are NI results used directly as input features?
+            \item Are they applied to preprocess or smooth the data?
+        \end{itemize}
+    \end{itemize}
+
+    \item[6.] \textbf{Performance Metrics / Error Analysis}
+    \begin{itemize}
+        \item Include error analysis methods:
+        \begin{itemize}
+            \item MAE
+            \item MSE
+            \item MSLE
+            \item $R^2$
+            \item IA
+            \item MAPE and SMAPE
+        \end{itemize}
+    \end{itemize}
+
+    \item[7.] \textbf{Discuss about the whole procedure of the project}
+    \begin{itemize}
+        \item Have not been discussed yet.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% Results and Discussion Section
+\section{Results and Discussion}
+
+% First Page of Results and Discussion
+\begin{frame}{Results and Discussion}
+\begin{itemize}
+    \item \textbf{Comparative Analysis}
+    \begin{itemize}
+        \item Present a clear comparison of Numerical Integration (NI), Deep Learning (DL), and the Hybrid model.
+        \item Use:
+        \begin{itemize}
+            \item Bar charts for metric comparison.
+            \item Line plots for actual and predicted.
+            \item Confidence intervals.
+        \end{itemize}
+        \item Explain Results
+            \begin{itemize}
+            \item Discuss why the hybrid model performs better or worse in specific scenarios.
+            \item Relate findings to challenges mentioned in the Introduction.
+            \end{itemize}
+        \item Visualizations
+            \begin{itemize}
+            \item Incorporate MATLAB visualizations as outlined earlier to enhance clarity.
+            \item Relate findings to challenges mentioned in the Introduction.
+            \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% Second Page of Results and Discussion
+\begin{frame}{Results and Discussion (cont'd)}
+    \begin{itemize}
+    \item \textbf{Ensure clear comparisons:}
+        \begin{itemize}
+            \item Standalone numerical integration vs. standalone deep learning vs. hybrid.
+            \item Use line plots to highlight the difference between actual and predicted values.
+            \item Include confidence intervals to visualize prediction uncertainty.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Conclusion Section
+\section{Conclusion }
+\begin{frame}{Conclusion}
+    \begin{itemize}
+    \item \textbf{Ensure the conclusion explicitly addresses the hypothesis:}
+        \begin{itemize}
+            \item Did the hybrid approach improve forecasting accuracy?
+            \item Were there trade-offs, such as increased computational cost?
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Future Work Section
+\section{Future Work}
+\begin{frame}{Future Work}
+    \begin{itemize}
+        \item Suggest exploring real-time forecasting applications or scaling the hybrid approach to larger datasets.
+        \item Investigate Anomaly Detection using these numerical methods.
+    \end{itemize}
+\end{frame}
+
+% Bibliography Section
+\section{Bibliography}
+\begin{frame}{Bibliography}
+    \bibliographystyle{apalike}
+    \bibliography{references}
+\end{frame}
+
+% References Page
+\begin{frame}{References}
+    \begin{itemize}
+        \item Reference 1:
+        \cite{10583885}
+        \item Reference 2: 
+        \cite{WAQAS2024}
+        \item Reference 3: 
+        \cite{unknown}
+        \item Reference 4: 
+        \cite{article}
+        \item Reference 5:
+        \cite{numerical_analysis}
+        \item Reference 6:
+        \cite{harvard_unit27}
+    \end{itemize}
+\end{frame}
+
+% Appendix Section
+\section{Appendix}
+\begin{frame}{Appendix}
+    Appendix content.
+\end{frame}
+
+\end{document}

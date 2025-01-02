@@ -93,9 +93,20 @@
 \section{Introduction}
 \begin{frame}{Introduction}
     \begin{itemize}
-        \item Fields applying forecasting: Healthcare, Weather, Traffic.
+        \item Fields applying forecasting: 
+        \begin{itemize}
+            \item Healthcare
+            \item Weather
+            \item Traffic
+        \end{itemize}
         \item Challenges in forecasting.
-        \item Limitations of traditional models (ARIMA, SARIMA, Statistical Methods).
+        \item Limitations of traditional models 
+        \begin{itemize}
+            \item ARIMA
+            \item SARIMA 
+            \item Z-scores
+            \item Moving Average
+        \end{itemize}
         \item Contribution of numerical integration to forecasting.
     \end{itemize}
 \end{frame}
@@ -108,9 +119,9 @@
 
 \begin{frame}{Objectives}
     \begin{itemize}
-        \item Develop and evaluate LSTM models with numerical integration.
-        \item Use metrics like MSE, MSLE, R\textsuperscript{2}, IA, MAPE, and sMAPE.
-        \item Leverage time-series datasets for enhanced forecasting.
+        \item To develop and evaluate LSTM models with numerical integration.
+        \item To compare model using metrics like MSE, MSLE, R\textsuperscript{2}, IA, MAPE, and sMAPE.
+        \item Tp leverage time-series datasets for enhanced forecasting.
     \end{itemize}
 \end{frame}
 
@@ -118,13 +129,32 @@
 \section{Methodology}
 \begin{frame}{Methodology Overview}
     \begin{itemize}
-        \item Dataset collection (e.g., NYC taxi passengers).
-        \item Numerical integration methods: Trapezoidal Rule, Monte Carlo.
-        \item Preprocessing: Trend extraction, seasonality analysis, Normalize/standardize data, dataset splitting.
-        \item Deep learning model: LSTM.
-        \item Hybrid model design.
-        \item Performance metrics.
+        \item Dataset collection
+        \begin{itemize}
+            \item Type
+            \item Properties
+            \item Relation to other course assignment
+            \item Anomalies
+        \end{itemize}
+        \item Numerical integration methods: 
+        \begin{itemize}
+            \item Trapezoidal Rule
+            \item Monte Carlo
+        \end{itemize}
+        \item Preprocessing
+        \begin{itemize}
+            \item Trend extraction
+            \item seasonality analysis
+            \item Normalize/standardize data
+            \item dataset splitting
+        \end{itemize}
+            \item Deep learning model: LSTM / Linear Regression.
+            \item Hybrid model design: KIV
+            \item Performance metrics.
     \end{itemize}
+\end{frame}
+\begin{frame}{Dataset Visualization}
+    \includegraphics[height=8cm]{Taxi-Passengers-Graph} % Add your logo here
 \end{frame}
 
 % Results and Discussion Section
@@ -153,13 +183,30 @@
         \item Investigate anomaly detection.
     \end{itemize}
 \end{frame}
-
 % Bibliography Section
 \section{Bibliography}
 \begin{frame}{Bibliography}
-    \bibliographystyle{apalike}
+    \bibliographystyle{apalike}  % Or use plainnat/IEEEtran if needed
     \bibliography{references}
 \end{frame}
 
-\end{document}
+% Appendix Section
+\section{Appendix}
+\begin{frame}{Appendix}
+    Appendix content.
+\end{frame}
 
+% References Page
+\section{References}
+\begin{frame}{References}
+    \begin{itemize}
+        \item Reference 1: \cite{ieee_forecasting}
+        \item Reference 2: \cite{sciencedirect_weather}
+        \item Reference 3: \cite{numerical_analysis}
+        \item Reference 4: \cite{arxiv_time_series}
+        \item Reference 5: \cite{trapezoidal_area_analysis}
+        \item Reference 6: \cite{harvard_unit27}
+    \end{itemize}
+\end{frame}
+
+\end{document}
